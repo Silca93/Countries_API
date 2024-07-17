@@ -5,7 +5,7 @@ import { Context } from '../App'
 import Card from './Card'
 
 export default function Body() {
-    const {search, searchVal, setSearchVal, mode, down, switchMode, filterByAsia, filterByOceania, filterByEurope, filterByAmericas, filterByAfrica, filterBySearch} = useContext(Context)
+    const {search, setSearchVal, mode, down, filterByAsia, filterByOceania, filterByEurope, filterByAmericas, filterByAfrica, filterBySearch} = useContext(Context)
   return (
     <div className={!mode ? "w-100dvw bg-gray-100 pt-[50px]" : "bg-[#202d36] w-100dvw pt-[50px]"}>
         <div className="flex justify-between pb-[50px]">

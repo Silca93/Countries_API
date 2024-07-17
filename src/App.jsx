@@ -1,7 +1,5 @@
   import { useState, useRef, useEffect } from 'react'
   import React from 'react'
-
-  
   import { RouterProvider, createBrowserRouter} from "react-router-dom"
 
   import Home from './Home'
@@ -110,13 +108,7 @@ const filterByAfrica = () => {
         path:"/project_API_Eric/",
         element: <Home/>,
         errorElement: Error(),
-        // children: [
-        //   {
-        //     path: "/Home/:id",
-        //     element: <Details/>,
-        //     errorElement: Error()
-        //   }
-        // ]
+        
         
       },
       {
