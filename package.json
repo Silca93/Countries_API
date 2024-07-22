@@ -2,7 +2,7 @@
   "name": "projet-api",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/Silca93/Countries_API",
+  "homepage": "https://github.com/Silca93/Countries_API.git",
   "type": "module",
   "scripts": {
     "dev": "vite",
