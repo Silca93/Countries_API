@@ -105,7 +105,7 @@ const filterByAfrica = () => {
     
     const router = createBrowserRouter([
       {
-        path:"/project_API_Eric/",
+        path:"/Countries_API/",
         element: <Home/>,
         errorElement: Error(),
         
