@@ -22,7 +22,9 @@ export default function Details() {
             <div className="left w-1/2 h-dvh flex flex-col items-center justify-center relative  max-[970px]:w-[20rem]  max-[970px]:h-[30rem]">
               <div className={!mode? "w-[7rem] h-[2rem] flex gap-4 bg-white border-2 shadow-xl absolute left-[80px] top-12 justify-center items-center" :"w-[7rem] h-[2rem] flex gap-4 bg-[#2b3642] border-2 shadow-xl absolute left-[80px] top-12 justify-center items-center"}>
                  <img className="text-white" src={back} alt=""  width="15px"/> 
-                  <Link to="/project_API_Eric/"><button className={!mode? "text-black bg-white" : "text-white bg-[#2b3642]"}>BACK</button></Link> 
+                  <Link to="/project_API_Eric/">
+                  <button className={!mode? "text-black bg-white" : "text-white bg-[#2b3642]"}>BACK</button>
+                  </Link> 
               </div>
               
               <img src={countryId.flags.png} alt=""width="600px"/>
