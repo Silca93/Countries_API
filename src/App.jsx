@@ -119,7 +119,7 @@ const filterByAfrica = () => {
     ])
 
     return (
-      <Context.Provider value={{country, filteredCountries, setFilteredCountries, filterByAsia, filterByOceania, filterByEurope, filterByAmericas, filterByAfrica, setCountry, filterBySearch, search, back, moon,  searchVal, setSearchVal, filteredCountries, mode, sun, down, setMode, switchMode}}>
+      <Context.Provider value={{country, filteredCountries, setFilteredCountries, filterByAsia, filterByOceania, filterByEurope, filterByAmericas, filterByAfrica, setCountry, filterBySearch, search, back, moon,  searchVal, setSearchVal, mode, sun, down, setMode, switchMode}}>
 
         <div className="main w-dvw h-dvh bg-gray-100">
           <RouterProvider router = {router}/>
